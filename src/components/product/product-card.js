@@ -10,7 +10,7 @@ const productCard = (props) => {
             </div>
             <div className="card-body">
                 <h5 className="card-title"><strong>Price [EGP]:</strong>&nbsp;{props.product.price}</h5>
-                <h6 className="card-subtitle text-muted"><strong>Producer</strong>&nbsp;{props.product.companyName}</h6>
+                <h6 className="card-subtitle text-muted"><strong>Producer:</strong>&nbsp;{props.product.companyName}</h6>
             </div>
             <div className="card-body" style={{ textAlign: "right" }}>
                 <div className="btn-group btn-group-toggle" data-toggle="buttons">
