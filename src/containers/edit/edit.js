@@ -4,7 +4,6 @@ import InputField from '../../components/input-field/input-field';
 import '../../Theme/bootstrap.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSpinner } from '@fortawesome/free-solid-svg-icons';
-import { objectTypeSpreadProperty } from '@babel/types';
 const API = require('../../API/API');
 const validateProduct = require('../../utilities/validation/product-validation/product-validation');
 
